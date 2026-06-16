@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia Digital Seguro - Dicas de Segurança para a Melhor Idade</title>
+  
+  <!-- Fonte de Alta Legibilidade (Google Fonts) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <!-- INPUTS DE CONTROLE DE ACESSIBILIDADE (Ficam escondidos, ativados via label) -->
+  <input type="checkbox" id="toggle-font" class="sr-only">
+  <input type="checkbox" id="toggle-contrast" class="sr-only">
+
+  <!-- APLICAÇÃO -->
+  <div class="app-container">
+    
+    <!-- CABEÇALHO -->
+    <header role="banner">
+      <div class="content-wrapper header-content">
+        
+        <!-- Logo Acolhedora -->
+        <div class="logo">
+          <span class="logo-icon" aria-hidden="true">🛡️</span>
+          <div class="logo-text">
+            <h1>Guia Digital Seguro</h1>
+            <p>Seu escudo de proteção na internet</p>
+          </div>
+        </div>
+
+        <!-- Barra de Acessibilidade -->
+        <div class="accessibility-bar" aria-label="Ajustes de Acessibilidade">
+          <!-- Botão Aumentar Fonte -->
+          <label for="toggle-font" class="btn-access" title="Aumentar o tamanho do texto do aplicativo" role="button" tabindex="0">
+            <span>🔎</span> Aumentar Letra
+          </label>
+
+          <!-- Botão Modo Escuro -->
+          <label for="toggle-contrast" class="btn-access" title="Alternar entre modo claro e modo de alto contraste" role="button" tabindex="0">
+            <span>🌗</span> Contraste / Modo Escuro
+          </label>
+        </div>
+
+      </div>
+    </header>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main class="content-wrapper" role="main">
+      
+      <!-- Seção Inicial -->
+      <section class="hero-section">
+        <h2>Olá! Que bom ter você aqui.</h2>
+        <p>A internet nos ajuda a conversar com quem amamos, pagar contas e fazer compras. Mas, assim como na rua, precisamos de cuidado. Este guia foi feito para você navegar sem medo e se proteger dos golpes mais comuns.</p>
+        <div class="welcome-tip">
+          <strong>💡 Dica de Ouro:</strong> Na dúvida, nunca faça nada com pressa. Pare, respire e ligue para alguém de sua total confiança!
+        </div>
+      </section>
+
+      <!-- Seção das Dicas em Acordeão -->
+      <section aria-labelledby="dicas-seguranca">
+        <h2 id="dicas-seguranca" class="section-title">Principais Cuidados no Dia a Dia</h2>
+        
+        <div class="tips-accordion">
+          
+          <!-- Dica 1: O Golpe do WhatsApp (Falso parente) -->
+          <details>
+            <summary>📱 1. O Golpe do WhatsApp (Falso Parente)</summary>
+            <div class="accordion-content">
+              <p>O golpista finge ser seu filho ou neto usando um <strong>número de telefone novo</strong>. Ele diz que o celular quebrou ou que precisa pagar uma conta urgente e pede dinheiro.</p>
+              
+              <strong>O que você deve fazer:</strong>
+              <ul class="security-checklist">
+                <li><strong>Nunca envie dinheiro na hora.</strong></li>
+                <li>Ligue imediatamente para o número antigo do seu parente (o que você já tinha salvo).</li>
+                <li>Fale com outras pessoas da família antes de tomar qualquer atitude.</li>
+              </ul>
+
+              <div class="alert-box">
+                <span style="font-size: 1.5rem;" aria-hidden="true">⚠️</span>
+                <div>
+                  <strong>Atenção:</strong> Se a pessoa pedir pressa ou disser para "não contar para ninguém", desconfie na hora!
+                </div>
+              </div>
+            </div>
+          </details>
+
+          <!-- Dica 2: Ligações de Falsos Bancos -->
+          <details>
+            <summary>📞 2. Ligações de Falsos Atendentes</summary>
+            <div class="accordion-content">
+              <p>Alguém liga dizendo que é do seu banco. Eles falam com voz simpática, dizem que sua conta foi "clonada" ou que há uma compra suspeita e pedem para você confirmar sua senha ou fazer um Pix.</p>
+              
+              <strong>O que você deve fazer:</strong>
+              <ul class="security-checklist">
+                <li>Desligue o telefone imediatamente.</li>
+                <li><strong>Lembre-se:</strong> O banco de verdade nunca liga pedindo senhas, dados do cartão ou para você transferir dinheiro.</li>
+                <li>Ligue você mesmo para o número que está atrás do seu cartão físico de crédito/débito.</li>
+              </ul>
+            </div>
+          </details>
+
+          <!-- Dica 3: Mensagens e Links Suspeitos -->
+          <details>
+            <summary>🔗 3. Mensagens com Links ou Prêmios</summary>
+            <div class="accordion-content">
+              <p>Você recebe mensagens por SMS ou WhatsApp dizendo que você ganhou um prêmio, que tem dinheiro esquecido para receber ou que sua conta de luz está atrasada, acompanhada de um link.</p>
+              
+              <strong>O que você deve fazer:</strong>
+              <ul class="security-checklist">
+                <li><strong>Não clique em links enviados por desconhecidos.</strong></li>
+                <li>Empresas sérias não mandam cobranças ou prêmios por mensagens de números estranhos.</li>
+                <li>Apague a mensagem para não clicar por engano.</li>
+              </ul>
+            </div>
+          </details>
+
+          <!-- Dica 4: Senhas Fortes e Seguras -->
+          <details>
+            <summary>🔑 4. Como Criar Senhas Seguras</summary>
+            <div class="accordion-content">
+              <p>Sua senha é a chave da sua casa digital. Se ela for muito fácil, qualquer um pode entrar.</p>
+              
+              <strong>Como criar uma boa senha:</strong>
+              <ul class="security-checklist">
+                <li>Não use seu ano de nascimento, nome de filhos, nem sequências como "1234" ou "0000".</li>
+                <li>Misture letras maiúsculas, minúsculas, números e símbolos (como @, # ou !).</li>
+                <li>Anote suas senhas em um <strong>caderno de papel físico</strong> que você guarda em um lugar seguro na sua casa. Não salve as senhas no celular.</li>
+              </ul>
+            </div>
+          </details>
+
+        </div>
+      </section>
+
+      <!-- Seção do Quiz Interativo -->
+      <section aria-labelledby="teste-seguranca">
+        <div class="interactive-quiz">
+          <h2 id="teste-seguranca" class="section-title">Desafio: Sua Senha e Hábitos são Seguros?</h2>
+          <p class="quiz-intro">Marque os itens abaixo que você já faz para ver como está sua segurança na internet hoje:</p>
+          
+          <label class="quiz-item">
+            <input type="checkbox">
+            <span class="checkmark" aria-hidden="true"></span>
+            <span class="quiz-text">Minhas senhas não usam minha data de nascimento ou nome próprio.</span>
+          </label>
+
+          <label class="quiz-item">
+            <input type="checkbox">
+            <span class="checkmark" aria-hidden="true"></span>
+            <span class="quiz-text">Eu nunca clico em links de promoções que parecem "boas demais para ser verdade".</span>
+          </label>
+
+          <label class="quiz-item">
+            <input type="checkbox">
+            <span class="checkmark" aria-hidden="true"></span>
+            <span class="quiz-text">Se recebo uma ligação do banco, eu desligo e chamo um familiar para me ajudar.</span>
+          </label>
+
+          <label class="quiz-item">
+            <input type="checkbox">
+            <span class="checkmark" aria-hidden="true"></span>
+            <span class="quiz-text">Eu nunca passo códigos que chegam por SMS para outras pessoas por telefone.</span>
+          </label>
+
+          <div class="success-feedback">
+            🎉 Parabéns! Cada item marcado é um escudo que protege você e sua família na internet!
+          </div>
+        </div>
+      </section>
+
+      <!-- Seção de Ajuda e Telefones Úteis -->
+      <section aria-labelledby="ajuda-rapida">
+        <div class="help-section">
+          <h3 id="ajuda-rapida">Caiu em um golpe? Não tenha vergonha!</h3>
+          <p>Os golpistas são profissionais em enganar as pessoas. Se você enviou dinheiro ou passou dados, aja rápido:</p>
+          
+          <div class="button-group">
+            <!-- Botão de Emergência Policial -->
+            <a href="tel:190" class="btn-emergency" title="Ligar para a Polícia Militar">
+              <span>🚨 Chamar a Polícia</span>
+              <span class="btn-number">Ligar 190</span>
+            </a>
+
+            <!-- Botão informativo para falar com o banco -->
+            <div class="btn-emergency primary-btn" style="cursor: default;">
+              <span>🏦 Fale com seu Banco</span>
+              <p style="font-size: calc(var(--font-base) * 0.8); font-weight: 500; margin: 0;">Ligue no número que está atrás do seu cartão imediatamente e peça o bloqueio.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer>
+      <div class="content-wrapper">
+        <p><strong>Guia Digital Seguro</strong> - Desenvolvido com carinho para proteger quem sempre cuidou de nós.</p>
+        <p style="margin-top: 0.5rem; font-size: calc(var(--font-base) * 0.7);">As informações contidas aqui servem como guia educativo e preventivo.</p>
+      </div>
+    </footer>
+
+  </div>
+
+</body>
+</html>
